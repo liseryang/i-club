@@ -48,7 +48,7 @@
     <td>&nbsp;</td>
     <td align="right"><input type="submit" name="button" id="button" value=" Save " />
       <input type="submit" value="Delete" onclick="this.form.action='delete-member.do';this.form.method='POST';this.form.submit();"/>
-      <input type="submit" name="button2" id="button2" value="Cancel" onclick="this.form.action='member.do';this.form.method='GET';this.form.submit();"/></td>
+      <input type="submit" name="button2" id="button2" value="Cancel" onclick="this.form.action='list-member.do';this.form.method='GET';this.form.submit();"/></td>
 
   </tr>
 </table>

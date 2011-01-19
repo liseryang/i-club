@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Add New Club Facility</title>
+<title>Edit Club Facility</title>
 <%
     String contextPath = request.getContextPath();
 %>
@@ -53,7 +53,7 @@ $($.date_input.initialize);
     <td>&nbsp;</td>
     <td align="right"><input type="submit" name="button" id="button" value=" Save " />
       <input type="submit" value="Delete" onclick="this.form.action='delete-clubFacility.do';this.form.method='POST';this.form.submit();"/>
-      <input type="submit" name="button2" id="button2" value="Cancel" onclick="this.form.action='member.do';this.form.method='GET';this.form.submit();"/></td>
+      <input type="submit" name="button2" id="button2" value="Cancel" onclick="this.form.action='list-clubFacility.do';this.form.method='GET';this.form.submit();"/></td>
   </tr>
 </table>
 </form:form>

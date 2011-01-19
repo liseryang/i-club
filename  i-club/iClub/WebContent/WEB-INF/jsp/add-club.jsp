@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Add New Member</title>
+<title>Add New Club</title>
 <jsp:include page="css_include.jsp"></jsp:include>
 </head>
 <body>
@@ -42,7 +42,7 @@
   <tr>
     <td>&nbsp;</td>
     <td align="right"><input type="submit" name="button" id="button" value=" Save " />
-      <input type="submit" name="button2" id="button2" value="Cancel" onclick="this.form.action='member.do';this.form.method='GET';this.form.submit();"/></td>
+      <input type="submit" name="button2" id="button2" value="Cancel" onclick="this.form.action='list-club.do';this.form.method='GET';this.form.submit();"/></td>
   </tr>
 </table>
 </form:form>
