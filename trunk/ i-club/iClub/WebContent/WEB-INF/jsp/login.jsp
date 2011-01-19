@@ -11,27 +11,28 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Contact Manager - Login</title>
+<title>Login</title>
+<jsp:include page="css_include.jsp"></jsp:include>
 </head>
 <body>
-
-<h1>Login</h1>
-
+<div id="menu">
+<h1 style="color:#EEEEEE">Login</h1>
+</div>
+<div id="content">
 <form action="j_spring_security_check" method="post" >
 <font size="1px" color="red">${error}</font>
-<p>
-	<label for="j_username">User Name</label>
-	<input id="j_username" name="j_username" type="text" />
-</p>
-
-<p>
-	<label for="j_password">Password</label>
-	<input id="j_password" name="j_password" type="password" />
-</p>
-
-<input  type="submit" value="Login"/>								
-	
+<table>
+<tr>
+	<td width="100px"><label for="j_username">User Name</label></td>
+	<td width="200px"><input id="j_username" name="j_username" type="text" /></td>
+</tr>
+<tr>
+	<td><label for="j_password">Password</label></td>
+	<td><input id="j_password" name="j_password" type="password" /></td>
+	<td align="left"><input  type="submit" value="Login"/></td>
+</tr>
+</table>	
 </form>
-
+</div>
 </body>
 </html>

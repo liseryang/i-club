@@ -21,7 +21,7 @@
 		<form-login
 				login-page="/login.do" 
 				authentication-failure-url="/login.do?error=true" 
-				default-target-url="/member.do"/>
+				default-target-url="/list-member.do"/>
 	</http>
 	
 	<!-- Declare an authentication-manager to use a custom userDetailsService -->
